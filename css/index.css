@@ -1,0 +1,228 @@
+	h1, p, a, img, * 
+	{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	}
+	a
+	{
+		color:#fff;
+		font-size: 100%;
+		text-decoration: none;
+	}
+	img 
+    {
+    	border: medium none;
+    	vertical-align: middle;
+	}
+	* 
+	{
+    	margin: 0;
+    	padding-top: 0;
+	}
+	body 
+    {
+   	 	color: #fff;
+		font-size: 100%;
+		margin: 0px;
+		width: 100%;
+	}
+	@media (max-width: 650px) {
+	html {
+    font-size: 70%;
+	}
+	}
+	.quan{
+		overflow:hidden;
+	}
+	.clear 
+	{
+   	 	clear: both;
+	}
+	
+	.header
+	{
+		position: relative;
+		width: 100%;
+		background:#fff;
+		overflow: hidden;
+	}
+	.header p
+	{
+		color: #42b683;
+		padding:11px 0;
+		margin-left: 10%;
+		font-size: 1rem;
+		display: inline-block;
+	}
+	.header .contact
+	{
+		position: absolute;
+		right:10%;
+		top: 22%;
+	}
+
+	.header #wechat
+	{
+		background:rgba(0,0,0,0) url("../images/sprite.png") no-repeat scroll -116px -49px;
+		float: left;
+		height: 24px;
+    	margin-right: 12px;
+    	width:24px;
+		
+	}
+	.header #qq
+	{
+		background:rgba(0,0,0,0) url("../images/sprite.png") no-repeat scroll -92px -49px;
+		height: 24px;    	
+    	width:24px;
+    	margin-right: 12px;
+    	float: left;
+	}
+	.header #weibo
+	{
+		background:rgba(0,0,0,0) url("../images/sprite.png") no-repeat scroll -141px -49px;
+		float: left;
+		height: 24px;	
+    	width:25px;
+    	margin-right: 12px;
+	}
+	.nav
+	{
+		background: #29b078;
+		width: 100%;
+		font-size: 1rem;
+		overflow: hidden;
+	}
+	.nav .logo
+	{
+		background:rgba(0,0,0,0) url("../images/sprite.png") no-repeat scroll -92px -0px;
+		height: 49px;
+		width: 107px;
+		margin-top: 1%;
+		margin-left: 10%;
+		float:left;
+	}
+	.nav .index
+	{
+   	 	margin-right:8%;
+   	 	float:right;
+	}
+	.nav ul 
+	{
+		min-width: 300px;
+	}
+	
+
+	.nav ul li
+	{		
+		display: inline-block;	
+		padding: 8% 6%;
+		cursor: pointer;
+	}
+
+	.nav ul li:hover {
+    	border-bottom: 3px solid;
+    	padding-bottom: 5%;
+    	transition: all 0.1s linear 0s;
+	}
+	@media (max-width: 650px) {
+	.nav .index
+	{
+   	 	margin-right:4%;
+   	 	
+	}
+	.nav ul li{
+		padding: 6% 2%;
+	}
+	.nav ul li:hover 
+	{    	
+    	padding-bottom: 6%;
+
+	}
+	}
+
+
+	.bottm
+	{
+		overflow: hidden;
+		background-color:#29b078;		
+		color: #fff;
+		width: 100%;
+		font-size: 1rem;
+	}
+	.footer .footer_2
+	{
+	  margin: 0 auto;
+  	  max-width: 1180px;
+  	
+  	  width: 100%;
+	}
+	.footer_2 h1
+	{
+		font-size: 1.2rem;
+	}
+	.footer_2 #about
+	{
+		float: left;		
+		margin-top: 4%;
+		margin-right: 20%;
+	}
+	.footer_2 #about span
+	{
+		margin-top:35%;
+		display: block;
+	}
+	.footer_2 #subordinate
+	{					
+		margin-right: 10%;
+		margin-top: 4%;
+		float: left;
+		
+	}
+	.footer_2 #subordinate ul li
+	{					
+		margin-right: 8%;
+		border-bottom: 1px solid #29b078;
+		margin-top: 11%;
+		display: inline-block;
+	}
+	.footer_2 ul {
+    list-style: outside none none;
+    width: 245px;
+	}
+	
+	.footer_2  #subordinate ul  li:hover
+	{
+		border-bottom: 1px solid #fff;
+	}
+	.footer_2 #Subscription
+	{
+		margin-right: 10%;
+		float: right;
+		margin-top: 4%;
+
+	}
+	.footer_2 #Subscription .erweima
+	{
+		padding-top: 15%;
+		background:rgba(0,0,0,0) url("../images/sprite.png") no-repeat scroll 0px 0px;
+		height: 92px;
+		width: 92px;
+	}
+	
+	.end
+	{
+		border-top: 0.5px solid #fff;
+		font-size: 0.6rem;
+		text-align: center;
+		margin-top: 2%;
+		padding: 1%; 0
+	}
+	@media (max-width: 900px)
+	{
+		.footer_2 #Subscription
+		{
+			float: left;
+		}
+	}

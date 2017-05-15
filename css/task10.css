@@ -1,0 +1,317 @@
+#aa{
+	width: 1000px;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+	margin:0 auto;
+	border:1px solid #000;
+}
+#bb{
+	width: 4000px;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+#bb img{
+	float: left;
+	width: 1000px;
+	height: 100%;
+}
+#cc{
+	position: absolute;
+	height: 5%;
+	width: 15%;
+	z-index: 2;
+	bottom: 4%;
+	left: 45%;
+}
+#cc span{
+	cursor: pointer;
+		float: left;
+		border: 1px solid #fff;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background:#333;
+		margin-right: 5px;
+	}
+#cc .on{
+	background:#FF7F00;
+}
+@media (max-width: 900px)
+	{
+		#aa{
+		 visibility:hidden;
+		 display:none;
+		}
+	}
+
+.arrow{
+	cursor: pointer;
+	display: none;
+	line-height: 39px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	color: #fff;}
+.arrow:hover {
+	background-color: rgba(0,0,0,.7);
+}
+#aa:hover .arrow{
+	display: block;
+}
+#prev{
+	left: 40px;
+}
+#next{
+	right: 40px;
+}
+
+	.main
+	{
+		margin: 0 auto;
+		max-width: 1160px;
+		width: 100%;
+	}
+	.main .left
+	{
+		margin-left:12%;
+		margin-top: 10%	;
+		margin-bottom: 10%;
+	}
+	.main .left ul li
+	{
+		float: left;
+		width: 15%;		
+		text-align: center;
+		margin-right: 8%;
+	}
+
+	.main .left h1
+	{
+		color: #333;
+		font-size: 1.4rem;
+		
+	}
+	.main .left p
+	{
+		color: #a1a1a1;
+		text-align: left;
+		font-size: 1rem;
+		padding-top: 5%;
+	}
+	.main .left .right
+	{	
+		
+		font-size: 0.8rem;
+		border-left: 1px solid #dedede ;
+		padding-left: 5%;
+		width: 15%;
+		float: left;
+		text-align: left;
+	}
+	.main .left .right h1
+	{
+		color: #29b078;
+
+	}
+	.main .left .right p
+	{
+		font-size: 1rem;
+		color: #a1a1a1;
+		padding-bottom: 40%;
+		padding-top: 0;
+	}
+	.grow
+	{
+		margin-left:3%;
+		width: 100%;
+	}
+	.grow  h1
+	{
+		font-size: 1.4rem;
+		margin-bottom: 8%;
+		text-align: center;
+		color: #000;
+	}
+	.grow h2
+	{
+		font-size: 1.4rem;
+		color: #29b078;
+		text-align: center;
+		background:rgba(0,0,0,0) url("../images/h2.png") no-repeat scroll 0 0;
+		display: inline-block;
+		height: 60px;
+		width: 77px;
+		padding-top: 8%;
+		 vertical-align: middle;
+	}
+	.grow ul li 
+	{
+		float: left;
+		padding-top: 5%;
+		width: 290px;
+	}
+
+	.grow ul li p
+	{
+
+		font-size: 0.8rem;
+		color: #a1a1a1;
+		display: inline-block;
+		margin-left:1%;
+		width: 45%;
+	}
+	.grow ul li img
+	{
+		display: inline-block;
+		margin-right: 5px;
+		width: 15%;
+	}
+	
+	.ehibition
+	{
+		
+		text-align: center;
+	}
+	.ehibition h1
+	{
+		padding-top: 12%;
+		font-size: 1.4rem;
+		color: #000;
+		padding-bottom: 5%;
+	}
+	.ehibition ul li
+	{
+		float: left;
+		background: #fff;
+		height: 400px;
+		width: 260px;
+		border: 2px ;
+		box-shadow: 0 0 5px #e2e2e2;
+		margin-right: 40px;
+	}
+	.ehibition ul li img
+	{
+		margin-top: 6%;
+	}
+	.ehibition ul li h2
+	{
+		padding-top: 8%;
+		font-size: 1.4rem;
+		color: #000;
+		padding-bottom: 6%;
+	}
+	.ehibition ul li p
+	{
+		font-size: 1rem;
+		color: #a1a1a1;
+		margin: 0 15%;
+		text-align: left;
+	}
+	.ehibition  #special
+	{
+		margin-right: 0;
+	}
+	.logo
+	{	
+		background-img: #fff;
+
+	}
+	.logo ul
+	{
+		box-shadow: 0 0 5px #e2e2e2;
+	}
+	
+	.logo ul li
+	{
+		float: left;
+		cursor: pointer;
+		padding:7.7% 10%;
+		
+	}
+	.logo .jinshan
+	{
+		background: url(../images/11.png) no-repeat scroll center center;;
+	}
+	.logo .ali
+	{
+		background: url(../images/12.png) no-repeat scroll center center;;
+	}
+	.logo .huang
+	{
+		background: url(../images/13.png) no-repeat scroll center center;;
+	}
+	.logo .yuntong
+	{
+		background: url(../images/14.png) no-repeat scroll center center;;
+	}
+	.logo .qiniu
+	{
+		background: url(../images/15.png) no-repeat scroll center center;;
+	}
+	.logo  ul li:hover
+	{
+		box-shadow: 0 0 5px 3px #e2e2e2;
+	}
+	@media (max-width: 900px)
+	{
+		.logo .jinshan
+		{
+			background-size: contain;
+		}
+		.logo .ali
+		{
+			background-size: contain;
+		}
+		.logo .huang
+		{
+			background-size: contain;
+		}
+		.logo .yuntong
+		{
+			background-size: contain;
+		}
+		.logo .qiniu
+		{
+			background-size: contain;
+		}		
+	}
+	.Link
+	{
+		max-width: 1160px;		
+		margin-left:13%;
+		padding-bottom: 15%;
+	}
+	.Link h1
+	{
+		padding-top: 5%;
+		font-size: 1.4rem;
+		color: #000;		
+		text-align: center;
+	}
+	.Link ul
+	{
+		margin-bottom: 20px;
+		color: #a1a1a1;
+		font-size: 1rem;
+	}
+	.Link ul li
+	{
+		
+		border-bottom: 1px solid #fff;
+    	cursor: pointer;
+   		float: left;
+		margin-right:4%;
+		margin-top: 2%;
+		
+	}
+	.Link ul li:hover
+	{
+		border-bottom: 1px solid #26a26f;
+	}

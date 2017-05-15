@@ -1,0 +1,103 @@
+	.banner img
+	{
+		width:100%;
+	}
+	.main
+	{
+		margin: 0 auto;
+   	 	max-width: 1200px;    	
+    	background-color: #fafafa;  	
+
+	}
+	.main ul
+	{
+		 font-size: 1.1rem;
+		 color: #000;
+	}
+	.leftbar  li
+	{
+		color: #29b078;
+   		cursor: pointer;
+    	display: inline-block;
+    	margin: 3% 0;
+	}
+	.leftbox
+	{	
+		width: 25%;
+		margin-right: 2%;
+		float: left;
+		box-shadow: 0 0 3px 1px #e2e2e2;
+		border-radius:2px;
+		text-align: center;
+		background: #fff;
+	}
+	.leftbox h1
+	{
+		font-size: 1.5rem;
+		color: #000;
+		border-bottom: 1px solid #e6e6e6;
+		padding: 5% 0;
+
+	}
+	.leftbox li
+	{	
+		color: #29b078;
+		margin: 8% 0 10% 40%;
+		font-size: 1rem;
+		list-style: outside url("../images/ico_01.png") circle;
+		text-align: left;	
+		cursor: pointer;
+	}
+	.leftbox li:hover
+	{	
+		color: #f1a750;
+		list-style: outside url("../images/ico_02.png") disc;
+	}
+	.content
+	{	
+		width: 65%;			
+		margin-left: 3%;
+		float: left;
+		box-shadow: 0 0 3px 1px #e2e2e2;
+		border-radius:2px;
+		margin-bottom: 15%;
+		text-align: left ;
+		padding-bottom: 18.398%;
+		background: #fff;
+	}
+	.content p
+	{
+		color: #999;
+		margin:6% 15% 4% 15%;
+	}
+
+	.content_2
+	{
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.content_2::before
+	{
+		background: rgba(0,0,0,0) url("../images/tudou.jpg") no-repeat scroll 0 0;
+		content: "";
+   	 	display: block;
+   		float: left;
+   	 	margin: 6.5476% 0 6.5% 10%;
+    	padding: 20px 80px;
+	}
+
+	.content_2 p
+	{
+		float: left;
+		width: 60%;
+		margin:4% 0 4% 0;
+	}
+	@media (max-width: 840px) {
+	.content_2::before {
+    margin-left:25%;
+	}
+	.content_2 p
+	{
+		margin-left: 15%;
+		width: 70%;
+	}
+	}
